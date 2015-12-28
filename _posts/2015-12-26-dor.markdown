@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "dOr"
+description: "Usability wrapper for the HTML5 deviceOrientation API"
+url: 
+date:   2015-12-27 16:36:00
+imageUrl: "../assets/dor.png"
+categories: [tool]
+---

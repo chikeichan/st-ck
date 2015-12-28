@@ -1,0 +1,24 @@
+---
+layout: page
+title: Recent
+subtitle: Things We Have Done
+permalink: /projects/
+---
+
+<ul class="list-posts">
+    {% for post in site.posts %}
+        <li class="post-teaser">
+        	<img style="max-width: 70%;" src="{{ post.imageUrl }}" />
+            <div style="max-width: 100%; text-align: center;">
+                {% if post.url %}
+	            <a href="{{ post.url }}">
+	                <span class="post-teaser__title">{{ post.title }}</span>
+	            </a>
+                {% else %}
+                <span class="post-teaser__title">{{ post.title }}</span>
+                {% endif %}
+	            <p style="font-size: 16px; font-weight: 500;">{{ post.description }}</p>
+	        </div>
+        </li>
+    {% endfor %}
+</ul>
