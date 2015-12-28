@@ -10,8 +10,8 @@ permalink: /projects/
         <li class="post-teaser">
         	<img style="max-width: 70%;" src="{{ post.imageUrl }}" />
             <div style="max-width: 100%; text-align: center;">
-                {% if post.url %}
-	            <a href="{{ post.url }}">
+                {% if post.redirect %}
+	            <a href="{{ post.redirect }}">
 	                <span class="post-teaser__title">{{ post.title }}</span>
 	            </a>
                 {% else %}
