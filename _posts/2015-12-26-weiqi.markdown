@@ -3,7 +3,7 @@ layout: post
 title:  "WeiqiJS"
 description: "Freemium Mobile Games"
 url: 
-date:   2015-12-27 16:36:00
+date:   2015-12-26 16:36:00
 imageUrl: "../assets/weiqi.png"
 categories: [tool]
 ---
